@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: 'Hind Siliguri', sans-serif;
+    background-image: url(asset/hero-bg.svg);
+    background-repeat: no-repeat;
+    background-color: #FFFBEE;
+}
+ul li{
+    list-style-type: none;
+    display: flex;
+    float: left;
+    margin: 10px 30px;
+}
+.navbar{
+    top: 0;
+    margin-top: -5px !important;
+}
+.leftul{
+    float: left;
+}
+.goalset{
+    font-weight: 600;
+}
+.login{
+    text-decoration: none;
+    color: black;
+    background-color: #FFFBEE;
+    border: 1px solid rgb(250, 197, 188);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.login:hover{
+    background-color: #FFC000;
+    font-weight: 500;
+}
+.carrerSet{
+    width: 800px;
+    height: 400px;
+    position: absolute;
+    left: 16%;
+    top: 70px;
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 10px;
+}
+.itemsection{
+    display: inline-block;
+    width: 48%;
+    height: 90px;
+    background-color: #fcfaf4;
+    box-shadow: 0 0 5px rgb(219, 153, 10);
+    border-radius: 10px;
+    border: 1px solid rgba(216, 213, 213, 0.925);
+    margin: 5px;
+    transition: .2s ease-in;
+    display: none;
+
+}
+
+.itemsection:hover{
+    box-shadow: -5px 3px 10px rgb(82, 80, 80);
+}
+.itemsection img{
+    width: 11%;
+}
+.itemsection p{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    font-size: 25px;
+}
